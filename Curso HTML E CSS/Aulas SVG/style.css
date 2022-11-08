@@ -1,0 +1,32 @@
+@keyframes dashanim {
+    from {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        fill: transparent;
+    }
+
+    to {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        fill: black;
+    }
+
+}
+
+.st0 {
+    fill: transparent;
+    stroke: #1ddd27;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dashanim 5s linear forwards;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+
+}

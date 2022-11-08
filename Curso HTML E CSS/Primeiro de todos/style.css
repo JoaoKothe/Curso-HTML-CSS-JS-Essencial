@@ -1,0 +1,47 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 54px;
+    color: rgb(18, 124, 45);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.856);
+}
+
+.txt-azul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(39, 24, 170, 0.856);
+}
+
+.box-orange {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: orange;
+}
+
+.box-blue {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #1f29af;
+}
+
+.box-yellow {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #e1f71d;
+
+        {}
+}
+
+.my-box {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #1f29af;
+}

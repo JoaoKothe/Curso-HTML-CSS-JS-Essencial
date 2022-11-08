@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>João Kothe - UX/UI Designer</title>
+</head>
+
+<body>
+
+    <div class="jk-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="jk-preloader">
+        <div class="jk-preloader-inner">
+            <img src="Images/lemon-loader.svg" class="jk-mar-bottom-15" alt="Limão tela de preloading">
+            <p class='jk-text-light jk-mar-top-15'>Aguarde um pouquinho.. Estou preparando a limonada</p>
+        </div>
+    </div>
+
+    <div class="jk-overlay jk-toggle-modal"></div>
+    <div class="jk-menu-overlay jk-toggle-menu"></div>
+
+    <div class="jk-modal jk-bg-black" id="jk-modal-orcamento">
+
+        <div class="jk-modal-header">
+            <h1 class="jk-title jk-text-green jk-mar-bottom-15">
+                Solicite um Orçamento
+            </h1>
+            <button class="jk-close-modal jk-toggle-modal">
+                X
+            </button>
+        </div>
+
+        <div class="jk-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="jk-text-light"> Por favor informe os dados abaixo e entraremos em contato com você.</p>
+                </div>
+            </div>
+            <div class="row jk-mar-top-15">
+                <div class="col-sm-12">
+                    <form class="jk-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Nome" class="jk-text-light ">Nome</label>
+                                <input type="text" name="Nome" id="jk-nome" class="jk-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Email" class="jk-text-light">Email</label>
+                                <input type="email" name="Email" id="jk-email" class="jk-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Telefone" class="jk-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="jk-telefone" class="jk-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Site" class="jk-text-light">Site</label>
+                                <input type="text" name="Site" id='jk-site' class="jk-field">
+                            </div>
+                            <div class="col-sm-12 col-md-12 jk-mar-top-15">
+                                <label for="jk-mensagem" class="jk-text-light">Descreva abaixo as características do
+                                    projeto que deseja realizar o orçamento.</label>
+                                <textarea name="jk-mensagem" id="jk-mensagem" class="jk-textarea" rows="8"></textarea>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end jk-mar-top-15">
+                            <div class="col-sm-12 col-md-6">
+                                <button class="jk-btn jk-btn-large jk-btn-green jk-btn-block">Enviar</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <header class="jk-topbar">
+        <div class="jk-logo  jk-logo-big">
+            <img src="Images/logo.svg" alt="Logo João Kothe Designer">
+        </div>
+        <nav class="jk-menu">
+            <a href="#">Home</a>
+            <a href="pages/portfolio.html">Portfolio</a>
+            <a href="pages/about.html">About</a>
+        </nav>
+    </header>
+
+    <button class="jk-btn-menu-mob jk-toggle-menu">
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <nav class="jk-menu-mob jk-menu-is-closed">
+        <a href="#">Home</a>
+        <a href="pages/portfolio.html">Portfolio</a>
+        <a href="pages/about.html">About</a>
+    </nav>
+
+    <div class="jk-contact-info jk-bg-black jk-text-light">
+        <div class="jk-contact-info-inner">
+            <h2 class="jk-title jk-text-green">Contato</h2>
+            <p>joaokothe1@gmail.com</p>
+            <p>+55(45) 99155-2502</p>
+            <div class="jk-social-links">
+                <a href="#" class="jk-social">
+                    <img src="Images/icon-instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" class="jk-social">
+                    <img src="Images/icon-twitter.svg" alt="Twitter">
+                </a>
+                <a href="#" class="jk-social">
+                    <img src="Images/icon-dribbble.svg" alt="Dribble">
+                </a>
+            </div>
+        </div>
+        <div class="jk-corner">
+
+        </div>
+    </div>
+    <button class="jk-btn-contact"></button>
+
+
+    <div class="jk-page-wrapper">
+
+        <section class='jk-full-height jk-first-section jk-home-presentation' id="jk-home-presentation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-10 offset-md-1 col-lg-4 offset-lg-1 col-xl-3 offset-xl-2 jk-display-text">
+                        <h1 class="jk-title jk-text-green jk-title-xlarge">Hello!</h1>
+                        <p class="jk-text-light"> My name is <span class='jk-text-green'>João Kothe</span>. I'm a
+                            front-end developer, with experience in <span class="jk-text-green">UX and UI</span>, and
+                            responsive design. All projects and features displayed on this page are examples, not
+                            executed.</p>
+
+                        <button class="jk-btn jk-btn-large jk-btn-green jk-mar-top-15 jk-toggle-modal">Request a
+                            quote!</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="jk-scroll-down">
+                <div class="jk-arrow-down">
+                    <img src="Images/arrow-down.svg" alt="Role a página">
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class='jk-full-height' id='jk-home-portfolio'>
+            <div class="container-fluid jk-no-padding">
+
+                <div class="row">
+                    <div class="col-sm-12 d-none d-sm-block d-lg-none jk-mar-top-30 jk-pad-top-30">
+                        <h2 class="jk-title-large jk-text-green jk-title jk-text-center ">Selected Projects</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-lg-2 order-2 order-sm-2 order-lg-1">
+                        <div class="jk-portfolio-navigator">
+                            <div class="jk-navigator-counter d-none d-sm-none d-lg-block">
+                                <span class="jk-text-green">01</span>
+                            </div>
+                            <nav class="jk-item-navigator d-none d-sm-none d-lg-block">
+                                <a href="#" class="jk-item-active" data-nav="1"></a>
+                                <a href="#" data-nav="2"></a>
+                                <a href="#" data-nav="3"></a>
+                                <a href="#" data-nav="4"></a>
+                                <a href="#" data-nav="5"></a>
+                            </nav>
+                            <div class="jk-items-next-prev jk-no-radius-left">
+                                <div class="jk-item-prev">
+                                    <ion-icon name="caret-back-outline"></ion-icon>
+                                </div>
+
+                                <div class="jk-items-counter">
+                                    <span class="jk-current-slide">01</span>
+                                    /
+                                    <span class="jk-total-slide">05</span>
+                                </div>
+
+                                <div class="jk-item-next">
+                                    <ion-icon name="caret-forward-outline"></ion-icon>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-10 order-1 order-sm-1 order-lg-2">
+                        <div class="jk-slider-container jk-full-height">
+                            <ul class="jk-slider-list jk-full-height">
+                                <li class="jk-portfolio-item jk-slide-active" data-slide="1">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="jk-portfolio-item-info jk-text-light jk-fade-from-left">
+                                                <h1 class="jk-title jk-title-large jk-mar-bottom-15">Startup Rocketz
+                                                    Website
+                                                </h1>
+                                                <p class="jk-mar-bottom-30">UX, Ui e Wordpress para aceleradora de
+                                                    Startups</p>
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-large jk-btn-green">Ver
+                                                    projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="jk-portfolio-item-thumb">
+                                                <div
+                                                    class="jk-portfolio-item-box d-none d-sm-none d-lg-block jk-scale-right">
+                                                </div>
+                                                <img src="Images/thumb-1.jpg" alt="Startup Rocketz"
+                                                    title="Startup Rocketz" class="jk-scale-up">
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-medium jk-btn-dark">Visitar Site <ion-icon
+                                                        name="arrow-redo-sharp"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jk-portfolio-item" data-slide="2">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="jk-portfolio-item-info jk-text-light">
+                                                <h1 class="jk-title jk-title-large jk-mar-bottom-15">Manage It!
+                                                    Aplicativo Mobile
+                                                </h1>
+                                                <p class="jk-mar-bottom-30">UX, Ui e Prototipação para Aplicativo Mobile
+                                                </p>
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-large jk-btn-green">Ver
+                                                    projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="jk-portfolio-item-thumb">
+                                                <div class="jk-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="Images/thumb-2.jpg" alt="Manage It!" title="Manage It!">
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-medium jk-btn-dark">Visitar Site <ion-icon
+                                                        name="arrow-redo-sharp"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jk-portfolio-item " data-slide="3">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="jk-portfolio-item-info jk-text-light">
+                                                <h1 class="jk-title jk-title-large jk-mar-bottom-15">Vinyassa!
+                                                    Aplicativo Mobile
+                                                </h1>
+                                                <p class="jk-mar-bottom-30">UX, Ui e Prototipação para Aplicativo Mobile
+                                                </p>
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-large jk-btn-green">Ver
+                                                    projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="jk-portfolio-item-thumb">
+                                                <div class="jk-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="Images/thumb-3.jpg" alt="Manage It!" title="Manage It!">
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-medium jk-btn-dark">Visitar Site <ion-icon
+                                                        name="arrow-redo-sharp"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jk-portfolio-item " data-slide="4">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="jk-portfolio-item-info jk-text-light">
+                                                <h1 class="jk-title jk-title-large jk-mar-bottom-15">Website para
+                                                    Agência
+                                                </h1>
+                                                <p class="jk-mar-bottom-30">Website para Agência de conteúdo digital.
+                                                </p>
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-large jk-btn-green">Ver
+                                                    projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="jk-portfolio-item-thumb">
+                                                <div class="jk-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="Images/thumb-4.jpg" alt="Manage It!" title="Manage It!">
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-medium jk-btn-dark">Visitar Site <ion-icon
+                                                        name="arrow-redo-sharp"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="jk-portfolio-item " data-slide="5">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1">
+                                            <div class="jk-portfolio-item-info jk-text-light">
+                                                <h1 class="jk-title jk-title-large jk-mar-bottom-15">Controle Total!
+                                                    Web App
+                                                </h1>
+                                                <p class="jk-mar-bottom-30">UX, Ui e Prototipação para Aplicativo Mobile
+                                                </p>
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-large jk-btn-green">Ver projeto</a>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-md-2">
+                                            <div class="jk-portfolio-item-thumb">
+                                                <div class="jk-portfolio-item-box d-none d-sm-none d-lg-block"></div>
+                                                <img src="Images/thumb-5.jpg" alt="Manage It!" title="Manage It!">
+                                                <a href="pages/portfolio/manage-it.html"
+                                                    class="jk-btn jk-btn-medium jk-btn-dark">Visitar Site <ion-icon
+                                                        name="arrow-redo-sharp"></ion-icon></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Animando Elementos on Scroll com Waypoints
+        var myScrollDown = document.querySelector('.jk-scroll-down');
+        var waypoint = new Waypoint({
+            element: myScrollDown,
+            handler: function () {
+                myScrollDown.classList.toggle('jk-fade-out');
+            },
+            offset: '80%'
+        });
+    </script>
+
+</body>
+
+</html>

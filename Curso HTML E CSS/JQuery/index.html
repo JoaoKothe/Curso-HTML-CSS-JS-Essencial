@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            width: 300px;
+            height: 50px;
+            margin: 15px auto;
+            display: block;
+            background-color: #f2f2f2;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            line-height: 50px;
+        }
+
+        .my-butons {
+            width: 300px;
+            height: 50px;
+            margin: 15px auto;
+            display: block;
+        }
+
+        .my-butons button {
+            width: 50%;
+            height: 40px;
+            float: left;
+        }
+    </style>
+
+
+</head>
+
+<body style="text-align: center; margin-top: 100px;">
+
+    <h1 class="item-azul">Azul 1</h1>
+    <h1 class="item-azul">Azul 2</h1>
+    <h1 class="item-azul">Azul 3</h1>
+
+    <h1 class="item-vermelho">Vermelho 1</h1>
+    <h1 class="item-vermelho">Vermelho 2</h1>
+    <h1 class="item-vermelho">Vermelho 3</h1>
+
+    <div class="my-butons">
+        <button id="facaAzul">Azuis</button>
+        <button id="facaVermelho">Vermelhos</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            var azuis = $('.item-azul');
+            var vermelhos = $('.item-vermelho');
+            var btnAzuis = $('#facaAzul')
+            var btnVermelhos = $('#facaVermelho')
+
+            btnAzuis.click(function () {
+                azuis.css('color', 'blue')
+                $('body').css('background-color', 'blue')
+            })
+
+            btnVermelhos.click(function () {
+                vermelhos.css({
+                    color: 'white',
+                    backgroundColor: 'red'
+
+                })
+                $('body').css('background-color', 'red')
+            })
+
+
+
+
+
+
+
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>

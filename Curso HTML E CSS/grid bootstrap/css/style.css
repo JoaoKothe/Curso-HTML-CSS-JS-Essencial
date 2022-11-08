@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my-box {
+    background-color: rgb(20, 57, 180);
+    height: 100px;
+    text-align: center;
+    color: #FFF;
+}
+
+.my-box .div-1 {
+    background-color: rgb(28, 199, 37);
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.my-box .div-2 {
+    background-color: #f3f;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.my-box .div-3 {
+    background-color: rgb(168, 50, 14);
+    border-radius: 10px;
+    margin-top: 10px;
+}
